@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  mountebank:
+    image: mountebank:0.0.1
+    container_name: mountebank
+    ports:
+      - "2525:2525"
